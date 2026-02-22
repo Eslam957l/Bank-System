@@ -1,0 +1,52 @@
+## Client Management & Transaction System
+
+
+This program is a C++ console application that manages client records stored in a text file (Clients.txt) and provides full CRUD operations along with basic banking transactions.
+
+Features
+
+Store client information using a struct (strInfo) including:
+
+Name, Account Number, PinCode, Phone, Salary
+
+Load all clients into a vector for easy management.
+
+CRUD Operations:
+
+Add new clients with unique account numbers
+
+Update existing client information
+
+Delete clients safely with confirmation
+
+Find and display client details
+
+Transactions:
+
+Deposit money into a client’s account
+
+Withdraw money with validation
+
+Display total salaries of all clients
+
+File handling ensures that data is persistent and deleted clients are properly removed from the file.
+
+Simple text-based menu system for navigation between main menu and transaction menu.
+
+Learning Points
+
+This project is great for practicing:
+
+Structs and vectors
+
+File I/O in C++
+
+String parsing and conversion
+
+Safe delete/update operations
+
+User input handling and basic validation
+
+Building a text-based menu-driven console application
+
+### Extension Bank System
