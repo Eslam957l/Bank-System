@@ -1,0 +1,27 @@
+## C++ Client Management System
+
+A simple Client Management System written in C++ for learning purposes.
+This project demonstrates file handling, structures, vectors, and string parsing in C++.
+
+
+This program manages client records stored in a text file (Clients.txt) and provides a full CRUD (Create, Read, Update, Delete) system.
+
+It loads all clients into a vector of structs (strInfo) and offers functions to:
+
+Convert text lines to client records and vice versa.
+
+Add new clients with unique account numbers.
+
+Display all clients in a formatted table.
+
+Search for clients by account number and view details.
+
+Update client information safely.
+
+Delete clients after confirmation, marking them in memory and updating the file.
+
+This project is useful for practicing structs, file handling, vectors, string parsing, user input validation, and safe delete/update operations.
+
+
+
+#### Bank System Project 
